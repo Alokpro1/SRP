@@ -17,96 +17,186 @@
 	<title>Yaseen</title>
 
 	 <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500,600" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
 integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		
+
 		<!--
 		CSS
 		============================================= -->
-		
+
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		
+
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/main.css">
+
+		<style>
+		::-webkit-scrollbar {
+		    display: none;
+		}
+		/* ::-moz-scrollbar {
+			display: none;
+		} */
+
+	.modal-dialog {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+	overflow: auto;
+}
+
+.modal-content {
+  height: 99%;
+}
+.i1{
+	width: 60%;
+}
+.isr_content{
+	padding : 5em 10em;
+}
+
+@media screen and (min-width: 768px) {
+  .i2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #example2 {
+    display: none;
+  }
+}
+
+	@media screen and (max-width: 768px) {
+  #example1 {
+    display: none;
+  }
+}
+
+
+	</style>
+
+
+
+
 	</head>
-	<body>
-		
+	<body style="overflow: auto;">
+
+
+
+
+
 
 			<!-- Start secvice Area -->
-			<section class="secvice-area pt-90 pb-90">
-				<div class="container">
+			<section class="secvice-area pt-10 pb-60">
+				<div class="container-fluid">
+
+
+					<!--Header-->
 					<div class="row">
+						<div class="col-md-2 col-sm-3 col-xs-3"><img align="right" src="img/inno.png" class="i1 img-responsive"/></div>
+						<div class="col-md-8 col-sm-6 col-xs-6"><h1 align="center">INNOVISION SOCIAL REGIME</h1></div>
+						<div class="col-md-2 col-sm-3 col-xs-3"><img src="img/nit.png" class="i1 img-responsive"/></div>
+						<!-- <div class="col-md-2"><img src="img/nit.jpg" class="i2"/></div> -->
+					</div>
+
+					<div class="row container-fluid isr_content">
+
+
 						<div class="col-md-4 single-service">
-							<img class="d-block mx-auto img-fluid" src="img/s1.jpg" alt="">
+							<img class="d-block mx-auto img-fluid" src="img/qq.jpg" alt="">
 							<div class="desc">
-								<h2 class="text-uppercase">The Important of food</h2>
+								<h2 class="text-uppercase">Kerela Flood</h2>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies globalization. Societies and the power of globalization. Societies globalization. Societies.
+									Time flows by, oscillating between the good and the bad. As we live, God's own country is suffering God's wrath. The beautiful palm-lined beaches, the soul stirring network of canals and the eye-catching mountain slopes lie crying, as Kerala is hit with one of the most destructive floods of recent times.
 								</p>
 								<a class="text-uppercase view-details"data-toggle="modal" data-target=".bd-example-modal-lg"  href="#">View Details</a>
-							
+
 							</div>
 						</div>
-						<div class="col-md-4 single-service">
+
+
+
+						<div class="col-md-4 single-service" id="example1">
 							<div class="desc">
-								<h2 class="text-uppercase">To Hire A Personal Chef</h2>
+								<h2 class="text-uppercase">Aasra Diya Project</h2>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies.
+									Decorated with colors and love by the underprivileged children from AASRA workplaces, AASRA diyas shine like true gems in the night. AASRA provides the diyas and raw material, and the delicate hands of the children make their fire shine brighter.
 								</p>
 								<a class="text-uppercase view-details"data-toggle="modal" data-target=".bd-example-modal-lg2"  href="#">View Details</a>
-							
+
 							</div>
-							<img class="d-block mx-auto img-fluid" src="img/s2.jpg" alt="">
+							<img class="d-block mx-auto img-fluid" src="img/q.gif" alt="">
 						</div>
-						<div class="col-md-4 single-service">
-							<img class="d-block mx-auto img-fluid" src="img/s3.jpg" alt="">
+
+
+						<div class="col-md-4 single-service" id="example2">
+							<img class="d-block mx-auto img-fluid" src="img/q.jpg" alt="">
 							<div class="desc">
-								<h2 class="text-uppercase">Thrill Friends And Family</h2>
+								<h2 class="text-uppercase">Aasra Diya Project</h2>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and the power of globalization. Societies.
+									Decorated with colors and love by the underprivileged children from AASRA workplaces, AASRA diyas shine like true gems in the night. AASRA provides the diyas and raw material, and the delicate hands of the children make their fire shine brighter.
 								</p>
-								
+
 								<a class="text-uppercase view-details"data-toggle="modal" data-target=".bd-example-modal-lg3"  href="#">View Details</a>
 							</div>
 						</div>
+
+
+
+						<div class="col-md-4 single-service">
+							<img class="d-block mx-auto img-fluid" src="img/b.gif" alt="">
+							<div class="desc">
+								<h2 class="text-uppercase">As the Earth needs organs more than heaven.</h2>
+								<p>
+									The world's riches and beauty can be witnessed or savored to the fullest only with the help of our vital organs. Unfortunately, not each and every mortal being on the face of this globe is blessed with all of them. 
+								</p>
+
+								<a class="text-uppercase view-details"data-toggle="modal" data-target=".bd-example-modal-lg3"  href="#">View Details</a>
+							</div>
+						</div>
+
+
 					</div>
 				</div>
 			</section>
 			<!-- End secvice Area -->
-			
 
-			
+
+
 			<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel exampleModalCenterTitle" aria-hidden="true">
 				<div class="modal-dialog modal-lg">
 				  <div class="modal-content">
 						<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+								<h5 class="modal-title" id="exampleModalLabel">Kereal Flood</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
-							  <img class="d-block mx-auto img-fluid" src="img/s1.jpg" alt="">
-						               Usage of the Internet is becoming more common due to rapid advancement 
-						          <br>
-						            <br> technology and the power of globalization. Societies.
+							  <img class="d-block mx-auto img-fluid" src="img/qq.jpg" style="width:auto; height:50%; align:center;" alt="">
+						              
 						           <br>
+						           
+						
 						           <br>
-						           <br>
-						           <br>
-						           <br>
-						           <br>cccccccccccccccccccccccccccccccccc
-						           <br>
+											   <p>
+											   	Time flows by, oscillating between the good and the bad. As we live, God's own country is suffering God's wrath. The beautiful palm-lined beaches, the soul stirring network of canals and the eye-catching mountain slopes lie crying, as Kerala is hit with one of the most destructive floods of recent times.<br>
+
+To save God's own country from this unexpected wrath of God, we, as God's own creation, should come forward in this hour of peril and need. For saving millions, we billions must open our arms and uphold the Incredibility of India.
+
+											   </p>
 
 						           <br>
 						           <br>
+						       </div>
+						       <div class="col-md-2 col-sm-3 col-xs-3"></div>
                          </div>
-								
+
 					</div>
 				</div>
 			</div>
@@ -114,27 +204,30 @@ integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEUL
 				<div class="modal-dialog modal-lg">
 				  <div class="modal-content">
 						<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+								<h5 class="modal-title" id="exampleModalLabel">Aasra Diya Project</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
-							  <img class="d-block mx-auto img-fluid" src="img/s2.jpg" alt="">
-						               Usage of the Internet is becoming more common due to rapid advancement 
-						          <br>
-						            <br> technology and the power of globalization. Societies.
+							  <img class="d-block mx-auto img-fluid" src="img/q.gif" style="width:auto; height:50%; align:center;" alt="">
+						               
+						           <br>
+						           
 						           <br>
 						           <br>
-						           <br>
-						           <br>
-						           <br>
-						           <br>cccccccccccccccccccccccccccccccccc
-						           <br>
+						           <p>Decorated with colors and love by the underprivileged children from AASRA workplaces, AASRA diyas shine like true gems in the night. AASRA provides the diyas and raw material, and the delicate hands of the children make their fire shine brighter. 
+
+With each diya you buy, you award their creativity and help them towards a better future. So, come, light a dream this Diwali and wash away the hazy shade of winter.</p>
+						          
+
+											<br>
 
 						           <br>
 						           <br>
+						       </div>
+						       <div class="col-md-2 col-sm-3 col-xs-3"></div>
                          </div>
-								
+
 					</div>
 				</div>
 			</div>
@@ -142,31 +235,31 @@ integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEUL
 				<div class="modal-dialog modal-lg">
 				  <div class="modal-content">
 						<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+								<h5 class="modal-title" id="exampleModalLabel">As the Earth needs organs more than heaven.</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								  <span aria-hidden="true">&times;</span>
 								</button>
 							  </div>
-							  <img class="d-block mx-auto img-fluid" src="img/s3.jpg" alt="">
-						               Usage of the Internet is becoming more common due to rapid advancement 
-						          <br>
-						            <br> technology and the power of globalization. Societies.
+							  <img class="d-block mx-auto img-fluid" src="img/b.gif" style="width:auto; height:50%; align:center;" alt="">
+						               
+						           <br>
+						           
 						           <br>
 						           <br>
-						           <br>
-						           <br>
-						           <br>
-						           <br>cccccccccccccccccccccccccccccccccc
-						           <br>
+						           <p></p>
+											 The world's riches and beauty can be witnessed or savored to the fullest only with the help of our vital organs. Unfortunately, not each and every mortal being on the face of this globe is blessed with all of them. Organ donation to help the needy is like bringing light into darkness, variety into monotony and euphoria into tediousness. Innovision'18 requests you to promote and take part in such activities in order to spread warm fuzzies and make the world a better place!
+											</p>
 
 						           <br>
 						           <br>
+						       </div>
+						           <div class="col-md-2 col-sm-3 col-xs-3"></div>
                          </div>
-								
+
 					</div>
 				</div>
 			</div>
-		
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
