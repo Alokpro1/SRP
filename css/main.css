@@ -47,6 +47,11 @@ body {
   position: relative;
 
 }
+p{
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 16px;
+}
 
 ol, ul {
   margin: 0;
@@ -113,8 +118,9 @@ h4, h5, h6 {
   color: #222222;
   line-height: 1.5em;
   margin-bottom: 0;
-  margin-top: 0;
-  font-weight: 500;
+  margin-top: 10px;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .h1, .h2, .h3,
